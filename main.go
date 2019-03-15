@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/andrecloutier/terraform-provider-datadogpagerduty/datadogpagerduty"
 	"github.com/hashicorp/terraform/plugin"
-	"github.com/terraform-providers/terraform-provider-datadog/datadogpagerduty"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module github.com/terraform-providers/terraform-provider-datadog
+module github.com/andrecloutier/terraform-provider-datadogpagerduty
 
 require (
 	github.com/armon/go-radix v1.0.0 // indirect
