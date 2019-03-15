@@ -1,7 +1,7 @@
 Terraform Provider
 ==================
 
-Custom provider which allows per service configuration in DataDog.
+Custom provider which allows per service configuration of the DataDog PagerDuty integration.
 
 This is a stop gap till [something like this gets merged into the main client](https://github.com/terraform-providers/terraform-provider-datadog/pull/164).
 
