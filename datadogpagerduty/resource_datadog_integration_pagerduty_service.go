@@ -77,7 +77,8 @@ func resourceDatadogIntegrationPagerdutyServiceCreate(d *schema.ResourceData, me
 }
 
 func resourceDatadogIntegrationPagerdutyServiceUpdate(d *schema.ResourceData, meta interface{}) error {
-	return fmt.Errorf("updating a service mapping is not supported at this time")
+	serviceName := d.Get("service_name").(string)
+	return fmt.Errorf("updating a service mapping is not supported at this time. You must manually remove the entry for the %s service within DataDog", serviceName)
 }
 
 func resourceDatadogIntegrationPagerdutyServiceRead(d *schema.ResourceData, meta interface{}) error {
