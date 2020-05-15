@@ -1,3 +1,5 @@
+:warning: This provider should no longer be used now that the [datadog_integration_pagerduty_service_object resource](https://www.terraform.io/docs/providers/datadog/r/integration_pagerduty_service_object.html) resource is available in the official Datadog provider. No further updates will be made to this provider.
+
 Terraform Provider
 ==================
 
